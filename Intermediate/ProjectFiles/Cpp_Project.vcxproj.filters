@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Cpp_Project.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A52021CD-CD9D-453F-AB59-2BCB65619F77}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Cpp_Project.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Cpp_ProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{7067116C-545B-4FA9-AF05-6B0DAA6CE708}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Cpp_Project">
+			<UniqueIdentifier>{CF871653-F3D6-49D0-B0D1-D7CEC9810481}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Cpp_Project\Cpp_Project.Build.cs">
+			<Filter>Source\Cpp_Project</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Cpp_Project\Cpp_Project.cpp">
+			<Filter>Source\Cpp_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Cpp_Project\Cpp_Project.h">
+			<Filter>Source\Cpp_Project</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Cpp_Project\Cpp_ProjectCharacter.cpp">
+			<Filter>Source\Cpp_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Cpp_Project\Cpp_ProjectCharacter.h">
+			<Filter>Source\Cpp_Project</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Cpp_Project\Cpp_ProjectGameMode.cpp">
+			<Filter>Source\Cpp_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Cpp_Project\Cpp_ProjectGameMode.h">
+			<Filter>Source\Cpp_Project</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Cpp_Project\Cpp_ProjectPlayerController.cpp">
+			<Filter>Source\Cpp_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Cpp_Project\Cpp_ProjectPlayerController.h">
+			<Filter>Source\Cpp_Project</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

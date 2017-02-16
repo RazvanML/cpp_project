@@ -1,0 +1,9 @@
+{
+	"Changelist" : 3249277,
+	"CompatibleChangelist" : 3195953,
+	"BuildId" : "",
+	"Modules" : 
+	{
+		"Cpp_Project" : "UE4Editor-Cpp_Project.dll"
+	}
+}
