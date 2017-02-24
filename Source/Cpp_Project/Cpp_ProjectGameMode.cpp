@@ -1,17 +1,13 @@
-// Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-#include "Cpp_Project.h"
-#include "Cpp_ProjectGameMode.h"
-#include "Cpp_ProjectPlayerController.h"
-#include "Cpp_ProjectCharacter.h"
+#include "cpp_project.h"
+#include "cpp_projectGameMode.h"
+#include "cpp_projectCharacter.h"
 
-ACpp_ProjectGameMode::ACpp_ProjectGameMode()
+Acpp_projectGameMode::Acpp_projectGameMode()
 {
-	// use our custom PlayerController class
-	PlayerControllerClass = ACpp_ProjectPlayerController::StaticClass();
-
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/TopDownCPP/Blueprints/TopDownCharacter"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter"));
 	if (PlayerPawnBPClass.Class != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;

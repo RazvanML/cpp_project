@@ -1,11 +1,11 @@
-// Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class Cpp_ProjectTarget : TargetRules
+public class cpp_projectTarget : TargetRules
 {
-	public Cpp_ProjectTarget(TargetInfo Target)
+	public cpp_projectTarget(TargetInfo Target)
 	{
 		Type = TargetType.Game;
 	}
@@ -20,6 +20,6 @@ public class Cpp_ProjectTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.Add("Cpp_Project");
+		OutExtraModuleNames.Add("cpp_project");
 	}
 }

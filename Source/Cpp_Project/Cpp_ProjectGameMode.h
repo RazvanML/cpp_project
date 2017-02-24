@@ -1,15 +1,15 @@
-// Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/GameModeBase.h"
-#include "Cpp_ProjectGameMode.generated.h"
+#include "cpp_projectGameMode.generated.h"
 
 UCLASS(minimalapi)
-class ACpp_ProjectGameMode : public AGameModeBase
+class Acpp_projectGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
-	ACpp_ProjectGameMode();
+	Acpp_projectGameMode();
 };
 
 
